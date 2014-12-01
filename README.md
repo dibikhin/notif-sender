@@ -11,7 +11,13 @@ notif-sender
 * npm install log4js
 
 #### Init DB 
-Fill players collection if needed
+Fill players collection if needed.
+In mongo shell run
+```
+for (var i = 123123123; i < 123123123 + 1000; i++) { 
+  db.players.insert({ vk_id: i, first_name: "Feodor_" + i })
+}
+```
 
 #### Config MongoDB
 Set MongoDB connection string in data-layer.js
