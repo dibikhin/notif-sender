@@ -1,7 +1,7 @@
 {
 	"Service": {
 		"Intervals": {
-			"generateNotifsEveryMs": 1000,
+			"generateNotifsEveryMs": 10000,
 			"sendNotifsEveryMs": 1001, // should be greater then or equal 1 [second]
 			"removeNotifsEveryMs": 5000
 		},
