@@ -1,0 +1,15 @@
+{
+	"Service": {
+		"Intervals": {
+			"generateNotifsEveryMs": 1000,
+			"sendNotifsEveryMs": 1001, // should be greater then or equal 1 [second]
+			"removeNotifsEveryMs": 5000
+		},
+		"Limits": {
+			"notifsSendingLimit": 100, // should be less then or equal 100
+			"notifsDeletionLimit": 1000,
+			"tasksInWorkLimit": 1,
+			"playersFindBatchSize": 1000
+		}
+	}
+}
